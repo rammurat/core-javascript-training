@@ -1,10 +1,10 @@
-# core-javascript-training
+# Core JavaScript Training
 
-## browserify
+## Browserify
 Load JS modules using browserify, an alternative and quick approach to load JS modules in browsers. 
 
-## native-module-loading
+## Native Module Loading
 Basic example of module loading using browser capability or natively.  
 
-## webpack-basic-example
+## Webpack Basic Example
 If you want to start with webpack by coding less and start from basics. 
