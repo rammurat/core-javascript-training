@@ -8,7 +8,7 @@ const handler = (percentage, message, ...args) => {
 };
 
 module.exports = {
-  entry: './main.js', // main entry file, where all other modules must be loading
+  entry: './src/main.js', // main entry file, where all other modules must be loading
   output: {
     path: path.resolve(__dirname, 'dist'), // new files created on the fly (old files removed) 
     filename: 'bundle.js'

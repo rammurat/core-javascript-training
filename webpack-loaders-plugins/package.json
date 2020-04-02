@@ -2,7 +2,7 @@
   "name": "webpack-loaders-plugins",
   "version": "1.0.0",
   "description": "",
-  "main": "main.js",
+  "main": "./src/main.js",
   "scripts": {
     "build": "webpack",
     "dev": "webpack-dev-server --config ./webpack.config.js --mode development",
@@ -11,7 +11,7 @@
   },
   "author": "",
   "license": "ISC",
-  "dependencies": {
+  "devDependencies": {
     "css-loader": "^3.4.2",
     "html-webpack-plugin": "^4.0.3",
     "sass-loader": "^8.0.2",
