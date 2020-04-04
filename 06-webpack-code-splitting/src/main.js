@@ -1,23 +1,16 @@
 import Header from './header';
-import {Button, Link, Para, createImage, Span} from './elements.js';
+import {Button, Span} from './elements.js';
 import Footer from './footer';
 
 import {currentTheme} from './config.js';
 
 import './css/app.css';
-import imageUrl from './img/logo.jpg';
 
 const installTheme = (theme) => import(`./css/themes/${theme}.css`);
 
 
 document.body.appendChild(Header('I am header'));
-
-document.body.appendChild(Button('Ger user info'));
-document.body.appendChild(Link('Click me', 'https://www.google.com'));
-
-document.body.appendChild(Para('I am styled paragraph', 'green'));
-document.body.appendChild(createImage(imageUrl));
-
+document.body.appendChild(Button('Ger user details and theme'));
 document.body.appendChild(Footer('I am footer'));
 
 // load data asnchronously on user interaction
