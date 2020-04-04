@@ -6,7 +6,8 @@ module.exports = {
   entry: './src/main.js', // main entry file, where all other modules must be loading
   output: {
     path: path.resolve(__dirname, 'dist'), // new files created on the fly (old files removed) 
-    filename: 'bundle.js'
+    filename: 'bundle.js',
+    chunkFilename: '[name]-chunk.js'
   },
   mode: 'production', // production is by default
   plugins: [
