@@ -5,9 +5,10 @@
   "main": "./src/main.js",
   "scripts": {
     "build": "webpack",
-    "dev": "webpack-dev-server --config ./webpack.config.js --mode development",
-    "prod": "webpack-dev-server --config ./webpack.config.js --mode production",
-    "watch": "webpack --watch"
+    "dev": "webpack-dev-server --config ./webpack.dev.js --mode development",
+    "prod": "webpack-dev-server --config ./webpack.prod.js --mode production",
+    "watch": "webpack --watch",
+    "analyze": "npm run prod -- --config ./webpack.analyze.js"
   },
   "author": "",
   "license": "ISC",
@@ -21,6 +22,8 @@
     "webpack-dev-server": "^3.10.3"
   },
   "dependencies": {
-    "url-loader": "^4.0.0"
+    "file-loader": "^6.0.0",
+    "url-loader": "^4.0.0",
+    "webpack-bundle-analyzer": "^3.6.1"
   }
 }
