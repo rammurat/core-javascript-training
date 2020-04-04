@@ -1,4 +1,4 @@
-@import '../scss/elements.scss';
+@import 'scss/elements.scss';
 
 header{
     border: 1px solid #ccc;

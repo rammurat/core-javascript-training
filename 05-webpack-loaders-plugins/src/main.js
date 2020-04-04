@@ -15,12 +15,3 @@ document.body.appendChild(createImage(imageUrl));
 
 document.body.appendChild(Footer('I am footer'));
 
-// load data asnchronously on user interation
-
-document.querySelector('button').onclick = function changeContent() {
-    import('./users.js').then((res) => {
-        const currentUserName = res.getUserName('John','Lewis');
-        document.body.appendChild(Span(currentUserName))
-    })
-}
-

@@ -1,0 +1,9 @@
+@import 'scss/elements.scss';
+
+header{
+    border: 1px solid #ccc;
+}
+
+footer{
+    border: 1px solid #ccc;
+}
