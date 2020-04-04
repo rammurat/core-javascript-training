@@ -5,3 +5,5 @@ export const getUser = (arr, id) => {
 export const getUserName = (firstName, lastName) => {
     return `${firstName} ${lastName}`
 }
+
+export default getUserName

@@ -33,8 +33,9 @@ module.exports = {
       {
         test: /\.(css|scss)$/,
         use: [
-          { loader: 'style-loader' },
-          { loader: 'css-loader' }
+          { loader: 'style-loader' }, // injects styles to html DOM
+          { loader: 'css-loader' }, // Turns css to js string for webpack
+          { loader: 'sass-loader' } // Turns sass to css properties
         ]
       },
       {

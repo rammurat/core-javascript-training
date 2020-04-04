@@ -24,4 +24,11 @@ const createImage = (url) => {
     return _img;
 }
 
-module.exports = {Button, Link, Para, createImage}
+const Span = (text, color) => {
+    const _s = document.createElement("span")
+    _s.innerText = text;
+    return _s;
+}
+
+
+module.exports = {Button, Link, Para, createImage, Span}
