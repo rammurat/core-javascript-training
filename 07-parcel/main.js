@@ -1,4 +1,3 @@
-import './css/main.css'
 import {sum} from './module.js';
 
 const newSum = sum(5,5);
